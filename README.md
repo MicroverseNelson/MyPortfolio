@@ -10,12 +10,12 @@ In this project I've used Flexbox to style my Porfolio page. The flexbox is very
 To get up and running follow these steps
 ## Steps :
  1) Clone repository in your local machine
-2) git clone https://github.com/sajid-munawar/Portfolio.git
+2) git clone https://github.com/MicroverseNelson/MyPortfolio
 3) cd Portfolio
 4) open index.html in your browser.
 5) You can use live server.
-6) Authors
-7) bust_in_silhouette Sajid Munawar
+6) Authors : Nelson ongiti
+
 # Connection 
 GitHub: @MicroverseNelson
 LinkedIn: LinkedIn
