@@ -14,6 +14,10 @@
     background-color: gray;
   }
 
+  .header-section li {
+    list-style: none;
+  }
+
   .header-section a {
     text-decoration: none;
     color: whitesmoke;
@@ -104,6 +108,10 @@
     padding: 10px;
   }
 
+  .works-section .work-desc-links li a {
+    text-decoration: none;
+  }
+
   .works-section .work-section-button {
     padding: 15px 8px 15px 8px;
     width: 150px;
@@ -152,6 +160,7 @@
     flex-direction: row;
     gap: 15px;
     margin-top: 12px;
+    list-style: none;
   }
 
   .projects-section .project-item .project-item-links a {
@@ -258,6 +267,12 @@
 
   .aboutme-section .aboutme-technologies .technologies-category .first ul li {
     padding-bottom: 20px;
+  }
+
+  .aboutme-section .aboutme-technologies .technologies-category .first ul li a {
+    list-style: none;
+    color: whitesmoke;
+    text-decoration: none;
   }
 
   .contact-form-section {
