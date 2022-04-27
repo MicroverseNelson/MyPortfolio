@@ -269,7 +269,7 @@
     padding: 0 16px 20px 16px;
   }
 
-  .contact-form-section h2{
+  .contact-form-section .contact-form-title {
     padding-bottom: 30px;
     color: #091e42;
     font-size: 36px;
