@@ -294,38 +294,42 @@
     font-family: 'Meera Inimai', sans-serif;
     font-weight: 900;
     font-size: 32px;
+    text-align: center;
     color: #091e42;
   }
 
-  .contact-form-section .form-inputs {
-    margin-top: 20px;
+  .contact-form-section .form-inputs form {
+    margin-top: 40px;
     display: flex;
     flex-direction: column;
     gap: 18px;
     width: 100%;
   }
 
-  .contact-form-section .form-inputs input {
+  .contact-form-section .form-inputs form input {
     outline: 0;
     border-width: 0 0 2px;
     border-color: gray;
     padding-bottom: 30px;
   }
 
-  .contact-form-section .form-inputs textarea {
+  .contact-form-section .form-inputs form textarea {
     padding: 10px;
     font-size: 14px;
+    background-color: #fbf8f7;
+    width: 327px;
+    height: 114px;
   }
 
-  .contact-form-section .form-inputs .getintouchbtn {
+  .contact-form-section .form-inputs form .getintouchbtn {
     background-color: #ff6b00;
-    width: 80%;
+    width: 40%;
     align-self: center;
-    padding: 20px;
-    border: none;
+    padding: 10px;
     color: whitesmoke;
     font-weight: bold;
-    font-size: 32px;
+    font-size: 14px;
+    border: none;
   }
 
   .footer-links {
