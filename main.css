@@ -95,10 +95,10 @@
     font-family: 'Inter', sans-serif;
   }
 
-  /*.works-section .work-desc-links {
+  .works-section .work-desc-links {
     display: flex;
     flex-direction: row;
-  }*/
+  }
 
   .works-section .work-desc-links li {
     border: grey 1px solid;
@@ -106,7 +106,7 @@
     margin-right: 20px;
     margin-top: 20px;
     padding: 10px;
-    float:left;
+    
   }
 
   .works-section .work-desc-links li a {
