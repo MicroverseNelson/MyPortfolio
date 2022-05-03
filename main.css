@@ -316,17 +316,20 @@
   .contact-form-section .form-inputs form textarea {
     padding: 10px;
     font-size: 14px;
+    background-color: #fbf8f7;
+    width: 327px;
+    height: 114px;
   }
 
   .contact-form-section .form-inputs form .getintouchbtn {
     background-color: #ff6b00;
-    width: 80%;
+    width: 40%;
     align-self: center;
-    padding: 16px;
+    padding: 10px;
     border: none;
     color: whitesmoke;
     font-weight: bold;
-    font-size: 32px;
+    font-size: 14px;
   }
 
   .footer-links {
