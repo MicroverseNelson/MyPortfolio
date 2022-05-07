@@ -495,28 +495,21 @@
   }
 
   .projects-section .project-item {
-    
-    height:300px;
     padding: 50px 10px 10px 10px;
     color:#fff;
   }
+
   .projects-section .project-item p{
     font-size: 12px;
   }
-  .projects-section .project-item .item-content {
-    margin-top: 115px;
-  }
-
 
   .projects-section .project-item .project-item-btn {
     width: 100%;
     padding: 8px;
     background: #ff6b00;
     border: none;
-    margin-top: 160px;
     color: #fff;
     font-weight: bold;
-
   }
 
   .project-item .project-item-links {
@@ -542,7 +535,6 @@
     background-image: url(./images/bg.png);
     background-repeat: no-repeat;
     background-size: cover;
-    border: 1px solid #091E42;
   }
 
   .projects-section .project-item:nth-child(2) {
@@ -581,16 +573,16 @@
     background: #1c1a19 url("./images/abtmeBg.png");
     color: whitesmoke;
     background-repeat: no-repeat;
-    background-position-x: 470px;
+    background-position-x: 778px;
     background-position-y: 70px;
     width: 100%;
     height:auto;
     background-size: 40%;
-    padding-bottom: 60px;
+    padding-bottom: 100px;
   }
 
   .aboutme-section .about-intro {
-    width: 350px;
+    width: 450px;
     margin: 50px 0 50px 50px;
     display: flex;
     flex-direction: column;
@@ -613,7 +605,10 @@
   }
 
   .aboutme-section .about-intro .divider {
-    width:650px;
+    width:1130px;
+    padding-top: 180px;
+    padding-bottom: 20px;
+    color:white;
   }
 
   .aboutme-section .aboutme-technologies {
@@ -623,7 +618,12 @@
   .aboutme-section .aboutme-technologies .technologies-category {
     display: flex;
     flex-direction: row;
-    gap: 150px;
+    gap: 250px;
+  }
+
+  .aboutme-section .aboutme-technologies .technologies-category .first span {
+    font-weight: bold;
+    font-size: 32px;
   }
 
   .aboutme-section .aboutme-technologies .technologies-category .first ul {
@@ -641,9 +641,9 @@
   .contact-form-section {
      display: flex;
      flex-direction: row;
-     justify-content: center;
+     justify-content: start;
      align-content: center;
-     padding: 80px;
+     padding: 20px;
      gap: 40px;
   }
 
@@ -661,11 +661,16 @@
     gap:12px;
   }
 
-  .contact-form-section .form-inputs .form-input-names input,
-  .input-email{
+  .contact-form-section .form-inputs input, 
+  textarea {
     border-top: none;
     border-right: none;
     border-left: none;
+    border-color: rgb(240 242 252);
+    
+  }
+  .contact-form-section .form-inputs textarea {
+    background: #fbf8f7;
   }
 
   .contact-form-section .form-text p {
@@ -693,7 +698,7 @@
   }
 
   .footer-links .footer-social-links .fa {
-    color: gray;
+    color: #808080;
     margin-top: 10px;
   } 
 
