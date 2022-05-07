@@ -431,7 +431,7 @@
   .hero-section .hero-social-links {
     margin-left:16px;
     list-style: none;
-    padding-top: 100px;
+    padding-top: 90px;
   }
 
   .hero-section .hero-social-links img {
@@ -461,6 +461,12 @@
     flex-direction: row;
     gap: 14px;
     margin: 0 50px 50px 50px;
+  }
+  .works-section .works-text img {
+    width: 600px;
+  }
+  .works-section .works-text  .work-desc {
+    line-height: 24px;
   }
 
   .works-section .works-text .work-desc-links {
