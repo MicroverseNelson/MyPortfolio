@@ -501,7 +501,7 @@
   }
 
   .projects-section .project-item .project-item-content {
-    margin-top: 70px;
+    margin-top: 150px;
   }
   .projects-section .project-item p{
     font-size: 12px;
@@ -514,6 +514,7 @@
     border: none;
     color: #fff;
     font-weight: bold;
+    display:none;
   }
 
   .project-item .project-item-links {
@@ -570,17 +571,21 @@
     background-size: cover;
   }
 
-  .projects-section .project-item:hover {
+  .projects-section .project-item:hover{
     border: 1px solid #3e3c3c;
     filter: blur(0px);
     transform:  scale(1.1);
     opacity: 2;
   }
 
-  .projects-section .project-item-content:hover {
-    display: none;
-  }
+  .projects-section .project-item:hover > .project-item-content {
+    display:none;
+   }
 
+  .projects-section .project-item:hover > .project-item-btn {
+    display: block;
+  }
+  
   .aboutme-section {
     display: flex;
     flex-direction: column;
