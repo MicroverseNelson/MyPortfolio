@@ -497,8 +497,12 @@
   .projects-section .project-item {
     padding: 50px 10px 10px 10px;
     color:#fff;
+    height:300px;
   }
 
+  .projects-section .project-item .project-item-content {
+    margin-top: 70px;
+  }
   .projects-section .project-item p{
     font-size: 12px;
   }
@@ -516,7 +520,6 @@
     display: flex;
     flex-direction: row;
     gap: 5px;
-    
   }
 
   .project-item .project-item-links a,
@@ -567,6 +570,17 @@
     background-size: cover;
   }
 
+  .projects-section .project-item:hover {
+    border: 1px solid #3e3c3c;
+    filter: blur(0px);
+    transform:  scale(1.1);
+    opacity: 2;
+  }
+
+  .projects-section .project-item-content:hover {
+    display: none;
+  }
+
   .aboutme-section {
     display: flex;
     flex-direction: column;
@@ -587,7 +601,6 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
-
   }
 
   .aboutme-section .about-intro h2 {
@@ -658,7 +671,7 @@
   .contact-form-section .form-inputs {
     display: flex;
     flex-direction: column;
-    gap:12px;
+    gap: 12px;
   }
 
   .contact-form-section .form-inputs input, 
@@ -700,6 +713,5 @@
   .footer-links .footer-social-links .fa {
     color: #808080;
     margin-top: 10px;
-  } 
-
+  }
 }
