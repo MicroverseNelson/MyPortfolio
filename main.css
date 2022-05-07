@@ -618,7 +618,7 @@
   .aboutme-section .aboutme-technologies .technologies-category {
     display: flex;
     flex-direction: row;
-    gap: 250px;
+    gap: 150px;
   }
 
   .aboutme-section .aboutme-technologies .technologies-category .first span {
