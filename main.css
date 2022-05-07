@@ -575,15 +575,20 @@
     border: 1px solid #3e3c3c;
     filter: blur(0px);
     transform:  scale(1.1);
-    opacity: 2;
+    background-image: url(./images/backunmask.png);
   }
 
   .projects-section .project-item:hover > .project-item-content {
     display:none;
    }
 
-  .projects-section .project-item:hover > .project-item-btn {
+  .projects-section .project-item:hover > a .project-item-btn {
     display: block;
+    margin-top: 210px;
+  }
+  .projects-section .project-item:hover > a {
+    text-decoration: none;
+
   }
   
   .aboutme-section {
