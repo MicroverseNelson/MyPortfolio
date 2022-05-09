@@ -373,7 +373,7 @@
     margin-left: 20px;
   }
 
-  .header-section .title:hover> span{
+  .header-section .title:hover > span {
     color: #f55800;
     font-size: 20px;
   }
