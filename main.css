@@ -684,6 +684,7 @@
     align-content: center;
     padding: 20px;
     gap: 40px;
+    margin-left: 150px;
   }
 
   .contact-form-section:nth-child() {

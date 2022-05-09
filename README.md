@@ -13,9 +13,7 @@
 
 ## Live Demo (if available)
 
-  Website: https://microversenelson.github.io/MyPortfolio/
-
-  ![alt text](./images/sshot.png)
+  Website URL: https://microversenelson.github.io/MyPortfolio/
 
 
 ## Getting Started
