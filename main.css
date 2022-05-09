@@ -373,6 +373,11 @@
     margin-left: 20px;
   }
 
+  .header-section .title:hover> span{
+    color: #f55800;
+    font-size: 20px;
+  }
+
   .header-section .menu {
     display: flex;
     flex-direction: row;
@@ -684,6 +689,7 @@
     align-content: center;
     padding: 20px;
     gap: 40px;
+    margin-left: 200px;
   }
 
   .contact-form-section:nth-child() {
