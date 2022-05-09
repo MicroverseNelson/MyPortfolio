@@ -14,7 +14,7 @@
 ## Live Demo (if available)
 
   Website URL: https://microversenelson.github.io/MyPortfolio/
-
+![alt text](./images/sshot.png)
 
 ## Getting Started
 
@@ -43,6 +43,10 @@ To get up and running follow these steps
 - GitHub: [@MicroverseNelson](https://github.com/MicroverseNelson)
 - Twitter: [@twitterhandle](https://twitter.com/PentonPoet)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+
+👤 **contributors**
+
+- Jorge
 
 ## 🤝 Contributing
 
