@@ -594,7 +594,7 @@
     display: none;
   }
 
-  .projects-section .project-item:hover > a .project-item-btn {
+  .projects-section .project-item:hover > form .project-item-btn {
     display: block;
     margin-top: 210px;
   }
