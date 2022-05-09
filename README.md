@@ -15,6 +15,8 @@
 
   Website: https://microversenelson.github.io/MyPortfolio/
 
+  ![alt text](./images/sshot.png)
+
 
 ## Getting Started
 
