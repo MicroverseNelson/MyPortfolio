@@ -444,15 +444,33 @@
     font-size: 12px;
   }
 
+  .hero-section .hero-text .hero-desc:hover,
+  :focus-visible {
+    font-family: 'Inter regular', sans-serif;
+    font-weight: bold;
+    padding-top: 12px;
+    line-height: 20px;
+    font-size: 18px;
+  }
+
   .hero-section .hero-social-links {
     margin-left: 16px;
     list-style: none;
     padding-top: 90px;
   }
 
+  .works-section .works-text img {
+    width: 600px;
+  }
+
   .hero-section .hero-social-links img {
     width: 60%;
     margin-top: 10px;
+  }
+
+  .hero-section .hero-social-links img:hover {
+    border: 1px solid #000;
+    padding: 12px;
   }
 
   .works-section .Work-section-title {
@@ -479,12 +497,15 @@
     margin: 0 50px 50px 50px;
   }
 
-  .works-section .works-text img {
-    width: 600px;
-  }
-
   .works-section .works-text .work-desc {
     line-height: 24px;
+  }
+
+  .works-section .works-text .work-desc:hover {
+    line-height: 24px;
+    font-weight: bold;
+    font-size: 18px;
+    color: black;
   }
 
   .works-section .works-text .work-desc-links {
@@ -504,8 +525,29 @@
     padding: 5px;
   }
 
+  .works-section .works-text .work-desc-links li:hover {
+    background: #000;
+    color: #fff;
+    border: 2px solid #f55800;
+    padding: 18px;
+  }
+
   .works-section .works-text .work-desc-links a {
     text-decoration: none;
+  }
+
+  .projects-section .project-item:hover > a {
+    text-decoration: none;
+  }
+
+  .aboutme-section .aboutme-technologies .technologies-category ul li a {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  .works-section .works-text .work-desc-links li a:hover {
+    text-decoration: none;
+    color: #fff;
   }
 
   .works-section .works-links h3 {
@@ -517,6 +559,14 @@
     padding: 8px;
     background: #f55800;
     border: none;
+  }
+
+  .works-section .works-links .work-section-button:hover,
+  :focus-visible {
+    padding: 14px;
+    background: #f55800;
+    border: 1px solid #000;
+    font-weight: bold;
   }
 
   .projects-section {
@@ -608,10 +658,6 @@
     margin-top: 210px;
   }
 
-  .projects-section .project-item:hover > a {
-    text-decoration: none;
-  }
-
   .aboutme-section {
     display: flex;
     flex-direction: column;
@@ -640,12 +686,34 @@
     font-size: 52px;
   }
 
+  .contact-form-section .form-text p {
+    color: #262626;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  .aboutme-section .about-intro p:hover {
+    font-weight: bold;
+    font-size: 20px;
+  }
+
   .aboutme-section .about-intro .aboutme-resumebtn {
     background: #ff6b00;
     padding: 8px;
     width: 150px;
     border: none;
     margin-bottom: 40px;
+  }
+
+  .aboutme-section .about-intro .aboutme-resumebtn:hover,
+  :focus-visible {
+    background: #f55800;
+    padding: 10px;
+    border: 2px solid #fff;
+    color: #000;
+    font-weight: bold;
   }
 
   .aboutme-section .about-intro .divider {
@@ -675,11 +743,6 @@
     flex-direction: column;
     gap: 14px;
     padding-top: 18px;
-  }
-
-  .aboutme-section .aboutme-technologies .technologies-category ul li a {
-    text-decoration: none;
-    color: #fff;
   }
 
   .contact-form-section {
@@ -718,14 +781,6 @@
     background: #fbf8f7;
   }
 
-  .contact-form-section .form-text p {
-    color: #262626;
-    font-size: 20px;
-    font-weight: bold;
-    line-height: 20px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  }
-
   .contact-form-section .getintouchbtn {
     width: 100px;
     padding: 10px;
@@ -745,5 +800,14 @@
   .footer-links .footer-social-links .fa {
     color: #808080;
     margin-top: 10px;
+  }
+
+  .contact-form-section .form-inputs textarea:hover {
+    border: 2px solid #1c1a19;
+  }
+
+  .contact-form-section .form-inputs input:hover {
+    border: 2px solid #1c1a19;
+    padding: 10px;
   }
 }
