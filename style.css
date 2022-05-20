@@ -503,12 +503,50 @@ footer {
 @media screen and (max-width: 768px) {
  .nav-links {
     display: flex;
-    flex-direction: row;
-    gap: 12px;
+    flex-direction: column;
+    gap: 50px;
+    border-bottom: 1px solid #fff;
+    justify-content: center;
+    align-items: flex-start;
+    height:100vh;
+    position:fixed;
+    top:0;
+    right:0;
+    left:0;
+    z-index:10;
+    background: #000;
+    transition: top 1s ease;
+    display: none;
+    color: #fff;
   }
 
-  .nav-bar li {
+  .nav-links li {
     list-style: none;
+    border-bottom: 1px solid #fff;
+    margin-left:30px;
+    width: 100%;
+  }
+  .fa {
+    color: #fff;
+  }
+
+  .closeMenu,
+  .openMenu {
+    display: block;
+    font-size: 2rem;
+    margin:20px;
+    cursor:pointer;
+  }
+
+  .closeMenu {
+    display: block;
+    position: absolute;
+    top:20px;
+    right:20px;
+  }
+
+  .openeMenu {
+    display:block;
   }
 }
 
@@ -541,6 +579,11 @@ footer {
   }
 
   #drop-menu {
+    display: none;
+  }
+
+  .closeMenu,
+  .openMenu {
     display: none;
   }
 
