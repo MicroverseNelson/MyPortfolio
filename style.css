@@ -533,7 +533,7 @@ footer {
   .closeMenu,
   .openMenu {
     display: block;
-    font-size: 2rem;
+    font-size: 1rem;
     margin:20px;
     cursor:pointer;
   }
