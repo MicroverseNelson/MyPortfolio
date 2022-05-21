@@ -22,3 +22,4 @@ document.querySelectorAll('.nav-links').forEach((link)=>{
         
     });
 });
+
