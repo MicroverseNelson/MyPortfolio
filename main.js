@@ -40,3 +40,36 @@ form.addEventListener('submit', (e)=>{
 });
 
 /*End form validation */
+
+/* user browser storage */
+
+const fullnames=document.querySelector('#fullnames');
+const email=document.querySelector('#email');
+const message=document.querySelector('#message');
+
+function store(){
+let formData={
+    'fullnames':fullnames.value,
+    'email':email.value,
+    'message':message.value
+}
+localStorage.setItem('form-data',JSON.stringify(formData)); 
+}
+
+function retrievedata(){
+    let data=localStorage.getItem('form-data');
+    if(data){
+        fetch=JSON.parse(data);
+        fullnames.value = fetch.fullnames;
+        email.value = fetch.email;
+        message.text = fetch.messsage;
+    }
+}
+
+window.onload = () => {
+    fullnames.addEventListener('input',  store());
+    email.addEventListener('input',  store());
+    message.addEventListener('input',  store());
+
+    retrievedata();
+  };
