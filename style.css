@@ -492,6 +492,11 @@ footer {
   display: block;
 }
 
+/* begin modal code*/
+
+
+/* end modal code*/
+
 @media screen and (max-width: 768px) {
   .nav-links {
     display: flex;
