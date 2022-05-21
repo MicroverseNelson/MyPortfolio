@@ -398,14 +398,6 @@ h1 {
   color: #fff;
   margin: 0 24px;
 }
-/*
-.contact {
-  padding: 120px 24px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  min-height: 50vh;
-} */
 
 .contact h6 {
   font-family: "Inter", sans-serif;
@@ -501,14 +493,60 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
- .nav-links {
+  .nav-links {
     display: flex;
-    flex-direction: row;
-    gap: 12px;
+    flex-direction: column;
+    gap: 50px;
+    border-bottom: 1px solid #fff;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 10;
+    background: #000;
+    transition: top 1s ease;
+    color: #fff;
+    list-style-type: none;
   }
 
-  .nav-bar li {
-    list-style: none;
+  .nav-links li {
+    border-bottom: 1px solid #fff;
+    margin-left: 30px;
+    width: 100%;
+  }
+
+  .navliks li a {
+    text-decoration: none;
+  }
+
+  .nav-bar a {
+    width: 100%;
+  }
+
+  .fa {
+    color: #fff;
+  }
+
+  .closeMenu,
+  .openMenu {
+    display: block;
+    font-size: 1rem;
+    margin: 20px;
+    cursor: pointer;
+  }
+
+  .closeMenu {
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+
+  .openeMenu {
+    display: block;
   }
 }
 
@@ -544,6 +582,11 @@ footer {
     display: none;
   }
 
+  .closeMenu,
+  .openMenu {
+    display: none;
+  }
+
   .nav-bar {
     background: #3c3a39;
     display: flex;
@@ -573,6 +616,7 @@ footer {
 
   .nav-links a {
     display: block;
+    margin-right: 10px;
   }
 
   .hero-section {

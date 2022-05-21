@@ -1,6 +1,6 @@
 # MY Personal portfolio Project
 
-> This project is part of Module 1 Week 2 Microverse curriculum where we learn how to create UIs adaptable to different screen sizes using media queries and template according to figma design
+> the project is personal website portfolio, that is a continuiation of week1- weekfour. this module we are expected to create a hamburger menu, which opens and closes
 
 ## Built With
 
