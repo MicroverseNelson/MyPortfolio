@@ -36,10 +36,10 @@ const projects = [
     description: `A daily selection of privately personalized reads; no accounts or
             sign-ups required. has been the industry's standard dummy text ever
             since the 1500s, when an unknown printer took a standard dummy text..`,
-    featuredImage: './images/recent-works.png',
+    featuredImage: './images/modalImg.png',
     technology: ['html', 'Bootstrap', 'Ruby on Rails'],
-    liveVersion: 'https://kelomo2502.github.io/portfolio/',
-    sourceCode: 'https://github.com/kelomo2502/portfolio',
+    liveVersion: 'https://microversenelson.github.io/MyPortfolio/',
+    sourceCode: 'https://github.com/MicroverseNelson/MyPortfolio',
   },
   {
     name: 'Professional Art Printing Data',
@@ -47,8 +47,8 @@ const projects = [
             sign-ups required. has been the industry's standard`,
     featuredImage: './modal-images/project5.png',
     technology: ['html', 'bootstrap', 'Ruby on Rails'],
-    liveVersion: 'https://kelomo2502.github.io/portfolio/',
-    sourceCode: 'https://github.com/kelomo2502/portfolio',
+    liveVersion: 'https://microversenelson.github.io/MyPortfolio/',
+    sourceCode: 'https://github.com/MicroverseNelson/MyPortfolio',
   },
 ];
 const seeProjectBtn = document.querySelectorAll('.cards-btn');
