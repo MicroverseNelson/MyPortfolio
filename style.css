@@ -500,7 +500,7 @@ footer {
     border-bottom: 1px solid #fff;
     justify-content: center;
     align-items: flex-start;
-    height:100vh;
+    height: 100vh;
     position: fixed;
     top: 0;
     right: 0;
@@ -508,7 +508,6 @@ footer {
     z-index: 10;
     background: #000;
     transition: top 1s ease;
-    display: none;
     color: #fff;
   }
 
@@ -520,7 +519,7 @@ footer {
   }
 
   .nav-bar a {
-    width:100%;
+    width: 100%;
   }
 
   .fa {
@@ -617,7 +616,7 @@ footer {
 
   .nav-links a {
     display: block;
-    margin-right:10px;
+    margin-right: 10px;
   }
 
   .hero-section {
