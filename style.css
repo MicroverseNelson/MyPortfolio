@@ -544,10 +544,6 @@ footer {
   .openeMenu {
     display: block;
   }
-
-  .contact {
-    overflow: none;
-  }
 }
 
 @media screen and (min-width: 768px) {
