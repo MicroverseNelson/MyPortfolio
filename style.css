@@ -492,6 +492,13 @@ footer {
   display: block;
 }
 
+/* begin error code*/
+
+#error {
+  display: none;
+}
+/* end error code*/
+
 @media screen and (max-width: 768px) {
   .nav-links {
     display: flex;

@@ -22,3 +22,21 @@ document.querySelectorAll('.nav-links').forEach((link)=>{
         
     });
 });
+
+/*Form validation begin */
+
+// form validation 
+const form=document.querySelector('#my-form');
+
+form.addEventListener('submit', (e)=>{
+    const email=document.querySelector('#email').value;
+    const error=document.querySelector('#error');
+    if (email!== email.toLowerCase()) {
+        e.preventDefault();
+        error.style.display='block';
+    }
+
+
+});
+
+/*End form validation */
