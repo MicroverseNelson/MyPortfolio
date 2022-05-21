@@ -15,3 +15,10 @@ function show() {
 function close(){
     navlinks.style.top = '-100%';
 }
+
+document.querySelectorAll('.nav-links').forEach((link)=>{
+    link.addEventListener('click', ()=>{
+        navlinks.style.top = '-100%';
+        
+    });
+});

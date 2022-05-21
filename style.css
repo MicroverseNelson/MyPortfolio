@@ -398,14 +398,6 @@ h1 {
   color: #fff;
   margin: 0 24px;
 }
-/*
-.contact {
-  padding: 120px 24px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  min-height: 50vh;
-} */
 
 .contact h6 {
   font-family: "Inter", sans-serif;
@@ -509,23 +501,28 @@ footer {
     justify-content: center;
     align-items: flex-start;
     height:100vh;
-    position:fixed;
-    top:0;
-    right:0;
-    left:0;
-    z-index:10;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 10;
     background: #000;
     transition: top 1s ease;
     display: none;
     color: #fff;
   }
 
-  .nav-links li {
+  .nav-links a {
     list-style: none;
     border-bottom: 1px solid #fff;
-    margin-left:30px;
+    margin-left: 30px;
     width: 100%;
   }
+
+  .nav-bar a {
+    width:100%;
+  }
+
   .fa {
     color: #fff;
   }
@@ -534,19 +531,23 @@ footer {
   .openMenu {
     display: block;
     font-size: 1rem;
-    margin:20px;
-    cursor:pointer;
+    margin: 20px;
+    cursor: pointer;
   }
 
   .closeMenu {
     display: block;
     position: absolute;
-    top:20px;
-    right:20px;
+    top: 20px;
+    right: 20px;
   }
 
   .openeMenu {
-    display:block;
+    display: block;
+  }
+
+  .contact {
+    overflow: none;
   }
 }
 
@@ -616,6 +617,7 @@ footer {
 
   .nav-links a {
     display: block;
+    margin-right:10px;
   }
 
   .hero-section {
