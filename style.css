@@ -509,13 +509,17 @@ footer {
     background: #000;
     transition: top 1s ease;
     color: #fff;
+    list-style-type: none;
   }
 
-  .nav-links a {
-    list-style: none;
+  .nav-links li {
     border-bottom: 1px solid #fff;
     margin-left: 30px;
     width: 100%;
+  }
+
+  .navliks li a {
+    text-decoration: none;
   }
 
   .nav-bar a {
