@@ -311,13 +311,13 @@
         please get in touch.
       </h6>
       <form action="https://formspree.io/f/mbjwpdnp" method="post" id="my-form">
-        <input type="text" name="name" placeholder="Full name" maxlength="30" required />
+        <input type="text" name="name" placeholder="Full name" maxlength="30" id="fullnames" required />
         <hr class="upper-hr" />
         <input type="email" id="email" name="email" placeholder="Email address" required />
         <hr />
         <textarea
           name="message"
-          id="#"
+          id="message"
           cols="30"
           rows="6"
           placeholder="Enter text here"
@@ -328,6 +328,9 @@
         <button id="contact-btn" class="form-btn cards-btn" type="submit">
           Get in touch
         </button>
+        <p id="error">
+          form not sent: email must be in lower case 
+        </p>
       </form>
     </section>
     <hr id="footer-hr" />
